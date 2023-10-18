@@ -32,7 +32,9 @@
 	{#if open}
 		<Menu class="absolute left-0 top-0 z-10 md:hidden" />
 	{/if}
-	<Logo class="max-w-[18rem] shrink fill-white" style="height: {logoHeight}rem;)" />
+	<a href="/">
+		<Logo class="max-w-[18rem] shrink fill-white" style="height: {logoHeight}rem;)" />
+	</a>
 	<div class="z-20 md:hidden">
 		<Hamburger bind:open --color="white" --layer-height="2px" --padding="0.5rem" />
 	</div>

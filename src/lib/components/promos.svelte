@@ -7,19 +7,19 @@
 		{
 			id: 1,
 			title: 'Grief Companionship',
-			href: '#',
+			href: '/offerings/companionship',
 			image: promo1
 		},
 		{
 			id: 1,
 			title: 'Circles, Ceremonies, Support Groups',
-			href: '#',
+			href: '/offerings/ceremonies',
 			image: promo2
 		},
 		{
 			id: 1,
 			title: 'Grief Retreats',
-			href: '#',
+			href: '/offerings/retreats',
 			image: promo3
 		}
 	];
