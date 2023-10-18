@@ -1,1 +1,7 @@
-<h1>Home</h1>
+<script>
+	import Promos from '$components/promos.svelte';
+	import Hero from '$lib/components/hero.svelte';
+</script>
+
+<Hero />
+<Promos />
