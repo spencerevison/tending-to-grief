@@ -1,9 +1,9 @@
 <script>
 	import Img from '@zerodevx/svelte-img';
-	import promo1 from '$lib/assets/img/promo-companionship.avif?as=run&tint=a7775311';
-	import promo2 from '$lib/assets/img/promo-circles.avif?as=run&tint=a77753';
-	import promo3 from '$lib/assets/img/promo-retreats.avif?as=run&tint=a77753ff';
-	const posts = [
+	import promo1 from '$lib/assets/img/promo-companionship.avif?as=run';
+	import promo2 from '$lib/assets/img/promo-circles.avif?as=run';
+	import promo3 from '$lib/assets/img/promo-retreats.avif?as=run';
+	const promos = [
 		{
 			id: 1,
 			title: 'Grief Companionship',
@@ -31,30 +31,32 @@
 			<h2 class="text-3xl font-bold leading-normal text-chocolate-700 sm:text-5xl">
 				Ways to journey together
 			</h2>
-			<!-- <p class="mt-2 text-lg leading-8 text-gray-600">
-				Learn how to grow your business with our expert advice.
-			</p> -->
 		</div>
 		<div
 			class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			{#each posts as post}
-				<article
-					class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-chocolate-700 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+			{#each promos as promo}
+				<a
+					href={promo.href}
+					class="group relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-chocolate-700 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
 				>
-					<Img src={post.image} class="absolute inset-0 -z-10 h-full w-full object-cover" />
+					<Img
+						src={promo.image}
+						class="absolute inset-0 -z-10 h-full w-full object-cover transition-transform duration-1000 ease-in-out group-hover:scale-110"
+					/>
 					<div
-						class="absolute inset-0 -z-10 bg-gradient-to-t from-chocolate-700 via-chocolate-700/40"
+						class="absolute inset-0 -z-10 bg-chocolate-600/10 transition-colors duration-700 ease-out group-hover:bg-chocolate-600/30"
+					/>
+					<div
+						class="absolute inset-0 -z-10 bg-gradient-to-t from-chocolate-700/60 via-chocolate-700/20"
 					/>
 					<div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-chocolate-900/10" />
 
 					<h3 class="mt-3 text-2xl font-semibold leading-6 text-white">
-						<a href={post.href}>
-							<span class="absolute inset-0" />
-							{post.title}
-						</a>
+						<span class="absolute inset-0" />
+						{promo.title}
 					</h3>
-				</article>
+				</a>
 			{/each}
 		</div>
 	</div>
