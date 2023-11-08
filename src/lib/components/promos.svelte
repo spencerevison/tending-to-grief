@@ -3,6 +3,8 @@
 	import promo1 from '$lib/assets/img/promo-companionship.avif?as=run';
 	import promo2 from '$lib/assets/img/promo-circles.avif?as=run';
 	import promo3 from '$lib/assets/img/promo-retreats.avif?as=run';
+	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
+
 	const promos = [
 		{
 			id: 1,
@@ -12,7 +14,7 @@
 		},
 		{
 			id: 1,
-			title: 'Circles, Ceremonies, Support Groups',
+			title: 'Ceremonies, Workshops & Support Groups',
 			href: '/offerings/ceremonies',
 			image: promo2
 		},
@@ -25,12 +27,17 @@
 	];
 </script>
 
-<div class="bg-white/90 py-24 sm:py-32">
+<div class="bg-gradient-to-b from-chocolate-400/90 py-24 text-white sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="mx-auto max-w-2xl text-center">
-			<h2 class="text-3xl font-bold leading-normal text-chocolate-700 sm:text-5xl">
-				Ways to journey together
-			</h2>
+		<div class="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center sm:gap-12">
+			<div class="space-y-1 sm:space-y-3">
+				<p class="font-title text-3xl sm:text-5xl">
+					&quot;Death is the end of a life, not the end of a relationship.&quot;
+				</p>
+				<p>—Robert Woodruff Anderson</p>
+			</div>
+			<Logo class="w-40 shrink fill-white sm:w-64" />
+			<h2 class="leading-normalsm:text-5xl text-3xl font-bold">Ways to journey together</h2>
 		</div>
 		<div
 			class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
@@ -52,7 +59,7 @@
 					/>
 					<div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-chocolate-900/10" />
 
-					<h3 class="mt-3 text-2xl font-semibold leading-6 text-white">
+					<h3 class="mt-3 text-2xl font-semibold leading-6">
 						<span class="absolute inset-0" />
 						{promo.title}
 					</h3>

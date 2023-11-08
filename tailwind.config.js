@@ -4,7 +4,8 @@ export default {
 	theme: {
 		fontFamily: {
 			sans: ['"DM Sans"', 'sans-serif'],
-			serif: ['Lora', 'serif']
+			serif: ['Lora', 'serif'],
+			title: ['"Alex Brush"', 'cursive']
 		},
 		extend: {
 			colors: {
