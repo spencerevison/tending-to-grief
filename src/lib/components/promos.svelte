@@ -1,14 +1,14 @@
 <script>
 	import Img from '@zerodevx/svelte-img';
-	import promo1 from '$lib/assets/img/promo-companionship.avif?as=run';
-	import promo2 from '$lib/assets/img/promo-circles.avif?as=run';
-	import promo3 from '$lib/assets/img/promo-retreats.avif?as=run';
+	import promo1 from '$lib/assets/img/compansionship-2.jpg?as=run';
+	import promo2 from '$lib/assets/img/compansionship-1.jpg?as=run';
+	import promo3 from '$lib/assets/img/retreat-2.jpg?as=run';
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 
 	const promos = [
 		{
 			id: 1,
-			title: 'Grief Companionship',
+			title: '1:1 Grief Companionship',
 			href: '/offerings/companionship',
 			image: promo1
 		},
