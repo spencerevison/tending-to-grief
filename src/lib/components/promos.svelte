@@ -55,7 +55,7 @@
 						class="absolute inset-0 -z-10 bg-chocolate-600/10 transition-colors duration-700 ease-out group-hover:bg-chocolate-600/30"
 					/>
 					<div
-						class="absolute inset-0 -z-10 bg-gradient-to-t from-chocolate-700/60 via-chocolate-700/20"
+						class="absolute inset-0 -z-10 bg-gradient-to-t from-chocolate-700/100 via-chocolate-700/20"
 					/>
 					<div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-chocolate-900/10" />
 
