@@ -29,15 +29,15 @@
 
 <div class="bg-gradient-to-b from-chocolate-400/90 py-24 text-white sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
-		<div class="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center sm:gap-12">
+		<div class="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center sm:gap-16">
 			<div class="space-y-1 sm:space-y-3">
-				<p class="font-title text-3xl sm:text-5xl">
+				<p class="font-title text-5xl sm:text-6xl lg:text-7xl">
 					&quot;Death is the end of a life, not the end of a relationship.&quot;
 				</p>
-				<p>—Robert Woodruff Anderson</p>
+				<p class="text-xl sm:text-2xl">—Robert Woodruff Anderson</p>
 			</div>
 			<Logo class="w-40 shrink fill-white sm:w-64" />
-			<h2 class="leading-normalsm:text-5xl text-3xl font-bold">Ways to journey together</h2>
+			<h2 class="leading-normalsm:text-6xl text-4xl font-bold">Ways to journey together</h2>
 		</div>
 		<div
 			class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
