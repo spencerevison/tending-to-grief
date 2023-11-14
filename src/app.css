@@ -5,7 +5,7 @@
 @layer base {
 
   body {
-    @apply bg-chocolate-200;
+    @apply bg-gradient-to-b from-chocolate-500/80 to-chocolate-400/80 text-white;
   }
 
   h1,
@@ -16,4 +16,12 @@
   h6 {
     @apply font-serif;
   }
+}
+
+select {
+  background: none;
+  padding: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }

@@ -8,7 +8,7 @@
 		<Img src={hero} factor={0.5} class="scale-150 sm:scale-110" />
 	</div>
 	<div
-		class="z-10 bg-gradient-to-b from-chocolate-400/90 px-8 text-xl text-white sm:px-20 md:col-start-1 md:row-start-1 md:from-chocolate-900/50 md:text-2xl"
+		class="z-10 bg-gradient-to-b from-chocolate-400/90 px-8 text-xl sm:px-20 md:col-start-1 md:row-start-1 md:from-chocolate-900/50 md:text-2xl"
 	>
 		<div class="my-12 grid grid-cols-1 gap-6 sm:gap-12 md:my-24">
 			<h2 class="font-title text-6xl sm:text-7xl">Ceremonial Grief Support</h2>

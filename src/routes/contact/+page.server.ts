@@ -8,9 +8,32 @@ export const actions = {
 		const name = data.get('name');
 		const email = data.get('email');
 
-		const response =
-			await fetch(`https://docs.google.com/forms/d/e/${formID}/viewform?usp=pp_url&entry.198679502=${name}&entry.1667206723=${email}
-  `);
+		/* const response = await fetch(`https://docs.google.com/forms/u/0/d/e/${formID}/formResponse`, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+				// 'Content-Type': 'application/x-www-form-urlencoded',
+			},
+			body: JSON.stringify({
+				'entry.198679502': name,
+				'entry.1667206723': email
+			})
+		}); */
+
+		const response = await fetch(
+			`https://docs.google.com/forms/d/e/${formID}/formResponse?entry.198679502=${name}&entry.1667206723=${email}&submit=Submit`,
+			{
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+					// 'Content-Type': 'application/x-www-form-urlencoded',
+				},
+				body: JSON.stringify({
+					'entry.198679502': name,
+					'entry.1667206723': email
+				})
+			}
+		);
 		console.log(response.status);
 		if (response.status === 200) {
 			return {

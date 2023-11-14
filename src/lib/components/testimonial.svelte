@@ -4,7 +4,7 @@
 <section class="isolate overflow-hidden bg-chocolate-500 px-6 lg:px-8">
 	<div class="relative mx-auto max-w-2xl py-24 sm:py-32 lg:max-w-4xl">
 		<div
-			class="absolute left-1/2 top-0 -z-10 h-[50rem] w-[90rem] -translate-x-1/2 bg-[radial-gradient(50%_100%_at_top,theme(colors.chocolate.400),white)] opacity-80 lg:left-36"
+			class="absolute left-1/2 top-0 -z-10 h-[50rem] w-[90rem] -translate-x-1/2 bg-[radial-gradient(50%_100%_at_top,theme(colors.chocolate.400),white)] opacity-80"
 		/>
 		<div
 			class="absolute inset-y-0 right-1/2 -z-10 mr-12 w-[150vw] origin-bottom-left skew-x-[-30deg] bg-chocolate-400/50 shadow-xl shadow-chocolate-600/10 sm:mr-20 md:mr-0 lg:right-full lg:-mr-36 lg:origin-center"
@@ -15,7 +15,7 @@
 					viewBox="0 0 162 128"
 					fill="none"
 					aria-hidden="true"
-					class="absolute -top-12 left-0 -z-10 h-32 stroke-chocolate-900/10"
+					class="absolute -top-12 left-0 -z-10 h-32 stroke-white/40"
 				>
 					<path
 						id="b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb"
@@ -23,7 +23,7 @@
 					/>
 					<use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
 				</svg>
-				<blockquote class="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+				<blockquote class="text-xl font-semibold leading-8 sm:text-2xl sm:leading-9">
 					<p>
 						“The grief work Tasha is doing is brave and potent among a cultural norm of grief
 						repression. Tasha clearly knows grief intimately and is not afraid to hold and face
@@ -33,7 +33,7 @@
 			</div>
 
 			<figcaption class="text-lg lg:col-start-1 lg:row-start-3">
-				<div class="font-semibold text-white">—Anna</div>
+				<div class="font-semibold">—Anna</div>
 			</figcaption>
 		</figure>
 	</div>

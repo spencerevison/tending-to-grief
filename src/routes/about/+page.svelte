@@ -1,9 +1,10 @@
 <script>
-	import aboutImg from '$lib/assets/img/about.avif?as=run';
+	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
+	import aboutImg from '$lib/assets/img/about-2.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 </script>
 
-<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-white sm:py-48 lg:px-8">
+<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 	<div>
 		<Img
 			src={aboutImg}
@@ -15,13 +16,19 @@
 	</div>
 
 	<div class="mx-auto max-w-2xl text-center">
-		<h2 class="font-title text-6xl font-bold text-white sm:text-6xl">About</h2>
+		<h1 class="font-title text-6xl font-bold sm:text-8xl">About</h1>
 	</div>
 </div>
 
-<section class="space-y-4 p-8 text-lg text-white">
-	<p>WHEN WE BYPASS GRIEF, WE BYPASS LOVE- SO LETS BE WITH IT, SHALL WE?</p>
-
+<section class="mx-auto max-w-3xl space-y-4 p-8 text-lg lg:max-w-4xl lg:text-xl">
+	<div class="mx-auto my-16 flex max-w-2xl flex-col items-center gap-8 text-center sm:gap-16">
+		<div class="space-y-1 sm:space-y-3">
+			<p class="font-title text-4xl sm:text-5xl lg:text-6xl">
+				When we bypass grief, we bypass love—so let's be with it, shall we?
+			</p>
+		</div>
+		<Logo class="w-40 shrink fill-white sm:w-64" />
+	</div>
 	<p>
 		What does “tending to grief” mean? It means so many things and looks so many ways. But some of
 		my definitions include: Showing up in true presence to sit at the altar of loss and sorrow. It

@@ -27,7 +27,7 @@
 	];
 </script>
 
-<div class="bg-gradient-to-b from-chocolate-400/90 py-24 text-white sm:py-32">
+<div class="bg-gradient-to-b from-chocolate-400/90 to-chocolate-200 py-24 sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center sm:gap-16">
 			<div class="space-y-1 sm:space-y-3">
