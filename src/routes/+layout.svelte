@@ -6,7 +6,6 @@
 	import Menu from '$components/menu.svelte';
 	import Nav from '$components/nav.svelte';
 	import Footer from '$components/footer.svelte';
-	import Footer from '$components/footer.svelte';
 
 	let open = false;
 	beforeNavigate(() => (open = false));
@@ -46,5 +45,4 @@
 </header>
 <svelte:window bind:scrollY={y} />
 <slot />
-<Footer />
 <Footer />

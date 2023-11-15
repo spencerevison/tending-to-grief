@@ -8,19 +8,14 @@
 </script>
 
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
-<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 	<div>
-		<Img
-			src={aboutImg}
-			class="absolute inset-0 -z-10 h-full w-full bg-chocolate-50 object-cover "
-		/>
+		<Img src={hero} class="absolute inset-0 -z-10 h-full w-full bg-chocolate-50 object-cover " />
 		<div
 			class="absolute inset-0 -z-10 bg-gradient-to-t from-chocolate-700/80 via-chocolate-700/50"
 		/>
 	</div>
 
 	<div class="mx-auto max-w-2xl text-center">
-		<h1 class="font-title text-6xl font-bold sm:text-7xl">1:1 Grief Companionship</h1>
 		<h1 class="font-title text-6xl font-bold sm:text-7xl">1:1 Grief Companionship</h1>
 	</div>
 </div>

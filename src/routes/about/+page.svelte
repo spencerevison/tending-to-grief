@@ -1,12 +1,9 @@
 <script>
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 	import aboutImg from '$lib/assets/img/about-2.jpg?as=run';
-	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
-	import aboutImg from '$lib/assets/img/about-2.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 </script>
 
-<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 	<div>
 		<Img
@@ -19,7 +16,6 @@
 	</div>
 
 	<div class="mx-auto max-w-2xl text-center">
-		<h1 class="font-title text-6xl font-bold sm:text-8xl">About</h1>
 		<h1 class="font-title text-6xl font-bold sm:text-8xl">About</h1>
 	</div>
 </div>
