@@ -44,5 +44,7 @@
 	<Nav class="ml-10 hidden items-center gap-10 lg:flex" />
 </header>
 <svelte:window bind:scrollY={y} />
-<slot />
+<main class="min-h-screen">
+	<slot />
+</main>
 <Footer />

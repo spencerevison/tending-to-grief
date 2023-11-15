@@ -31,6 +31,7 @@
 			><a href="/offerings/retreats">Grief Retreats</a></DropdownItem
 		>
 	</Dropdown>
+	<a href="/testimonials">Testimonials</a>
 	<a href="/about">About</a>
 	<a href="/contact">Contact</a>
 </nav>
