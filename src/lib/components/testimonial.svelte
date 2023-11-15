@@ -25,15 +25,13 @@
 				</svg>
 				<blockquote class="text-xl font-semibold leading-8 sm:text-2xl sm:leading-9">
 					<p>
-						“The grief work Tasha is doing is brave and potent among a cultural norm of grief
-						repression. Tasha clearly knows grief intimately and is not afraid to hold and face
-						yours as a pathway to connection, support, and belonging.”
+						{$$props.quote}
 					</p>
 				</blockquote>
 			</div>
 
 			<figcaption class="text-lg lg:col-start-1 lg:row-start-3">
-				<div class="font-semibold">—Anna</div>
+				<div class="font-semibold">{$$props.attribution}</div>
 			</figcaption>
 		</figure>
 	</div>

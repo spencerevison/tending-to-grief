@@ -1,9 +1,12 @@
 <script>
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 	import aboutImg from '$lib/assets/img/about-2.jpg?as=run';
+	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
+	import aboutImg from '$lib/assets/img/about-2.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 </script>
 
+<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 	<div>
 		<Img
@@ -17,10 +20,11 @@
 
 	<div class="mx-auto max-w-2xl text-center">
 		<h1 class="font-title text-6xl font-bold sm:text-8xl">About</h1>
+		<h1 class="font-title text-6xl font-bold sm:text-8xl">About</h1>
 	</div>
 </div>
 
-<section class="mx-auto max-w-3xl space-y-4 p-8 text-lg lg:max-w-4xl lg:text-xl">
+<section class="mx-auto max-w-3xl space-y-4 p-8 pb-32 text-lg lg:max-w-4xl lg:text-xl">
 	<div class="mx-auto my-16 flex max-w-2xl flex-col items-center gap-8 text-center sm:gap-16">
 		<div class="space-y-1 sm:space-y-3">
 			<p class="font-title text-4xl sm:text-5xl lg:text-6xl">

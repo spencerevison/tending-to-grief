@@ -22,7 +22,7 @@
 	</div>
 </div>
 
-<section class="mx-auto max-w-3xl space-y-8 p-8 text-lg lg:max-w-4xl lg:text-xl">
+<section class="mx-auto max-w-3xl space-y-8 p-8 pb-32 text-lg lg:max-w-4xl lg:text-xl">
 	<div class="mx-auto my-16 flex max-w-2xl flex-col items-center gap-8 text-center sm:gap-16">
 		<div class="space-y-1 sm:space-y-3">
 			<p class="font-title text-4xl sm:text-5xl lg:text-6xl">
@@ -32,7 +32,7 @@
 		</div>
 		<Logo class="w-40 shrink fill-white sm:w-64" />
 	</div>
-	<Img src={circle} class="-z-10 mx-auto max-w-3xl rounded-lg" />
+	<Img src={circle} class="-z-10 mx-auto max-w-full rounded-lg" />
 	<p>
 		These grief ceremonies are an opportunity for deeper connection and community. A place to gather
 		and grief tend with others who are navigating the throes of great loss. Like the ways of our
@@ -47,9 +47,9 @@
 		consecutive weeks. I am currently planning a parent loss group and suicide survivor group for
 		early 2024. Please inquire below if you are interested in attending.
 	</p>
-	<h2 class="block text-4xl">Upcoming Events</h2>
-	<div class="space-y-4">
-		<Img src={candles} class="-z-10 mt-8 max-w-lg rounded-lg" />
+	<h2 class="block pt-16 text-5xl">Upcoming Events</h2>
+	<div class="space-y-6">
+		<div class="max-w-lg"><Img src={candles} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
 		<h3 class="text-3xl">Tending to Grief During the Holidays</h3>
 		<p>Monday, 11/20/2023, from 2-4 PM HST, on Zoom</p>
 		<p>$15-25 Sliding scale. No one will be turned away for lack of funds.</p>
@@ -65,9 +65,15 @@
 			comes to our personal unique grieving style and needs.
 		</p>
 	</div>
-	<a
-		href="/register"
+	<button
+		data-tf-slider="xT6pTVD9"
+		data-tf-position="right"
+		data-tf-opacity="100"
+		data-tf-iframe-props="title=Grief ceremony Registration"
+		data-tf-transitive-search-params
+		data-tf-medium="snippet"
 		class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
-		>Register Now</a
+		>Register for event</button
 	>
+	<script src="//embed.typeform.com/next/embed.js"></script>
 </section>

@@ -3,10 +3,7 @@
 
 <div class="isolate px-6 py-24 sm:py-32 lg:px-8">
 	<div class="mx-auto max-w-2xl text-center">
-		<h2 class="text-3xl font-bold sm:text-4xl">Get in touch</h2>
-		<p class="mt-2 text-lg leading-8">
-			Aute magna irure deserunt veniam aliqua magna enim voluptate.
-		</p>
+		<h2 class="text-3xl sm:text-5xl">Get in touch</h2>
 	</div>
 	<form
 		action="https://api.web3forms.com/submit"
