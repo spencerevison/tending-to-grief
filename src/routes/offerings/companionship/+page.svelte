@@ -83,7 +83,6 @@
 				additional support I can help you find this.
 			</p>
 			<div class="mt-8">
-				<script src="//embed.typeform.com/next/embed.js"></script>
 				<button
 					data-tf-slider="oSDCOwry"
 					data-tf-position="right"
@@ -102,3 +101,6 @@
 	quote="“Tasha has played a powerful and much needed role in my grieving process. Her wise companionship through my journey after losing my beloved mom suddenly has been a nurturing hug, a pillar of strength, and a wise reflective mirror all at once. Within every session I felt so very seen, held, and given permission to let free the achiest, rawest and stickiest parts of loss. I can’t imagine having gone through this time without her support, and I am so deeply, deeply grateful. She is a true ally to anyone immersed in the lessons of grief.”"
 	attribution="—Rohini"
 />
+<svelte:head>
+	<script src="//embed.typeform.com/next/embed.js"></script>
+</svelte:head>
