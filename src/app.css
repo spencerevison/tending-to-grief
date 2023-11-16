@@ -4,6 +4,10 @@
 
 @layer base {
 
+  html {
+    @apply bg-chocolate-400;
+  }
+
   body {
     @apply bg-gradient-to-b from-chocolate-500/80 to-chocolate-400/80 text-white;
   }
