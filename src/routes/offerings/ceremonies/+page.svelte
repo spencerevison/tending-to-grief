@@ -65,6 +65,7 @@
 			comes to our personal unique grieving style and needs.
 		</p>
 	</div>
+	<script src="//embed.typeform.com/next/embed.js"></script>
 	<button
 		data-tf-slider="xT6pTVD9"
 		data-tf-position="right"

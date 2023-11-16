@@ -3,7 +3,6 @@
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 	import hero from '$lib/assets/img/plants.jpg?as=run';
 	import candles from '$lib/assets/img/lookout.jpg?as=run';
-	import mandala from '$lib/assets/img/mandala.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 </script>
 
@@ -84,6 +83,7 @@
 				lack of funds.
 			</p>
 			<div class="mt-8">
+				<script src="//embed.typeform.com/next/embed.js"></script>
 				<button
 					data-tf-slider="oSDCOwry"
 					data-tf-position="right"
@@ -94,7 +94,6 @@
 					class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
 					>Book a session</button
 				>
-				<script src="//embed.typeform.com/next/embed.js"></script>
 			</div>
 		</div>
 	</div>
