@@ -6,9 +6,6 @@
 	import Img from '@zerodevx/svelte-img';
 </script>
 
-<svelte:head>
-	<title>1:1 Grief Companionship</title>
-</svelte:head>
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 	<div>
 		<Img src={hero} class="absolute inset-0 -z-10 h-full w-full bg-chocolate-50 object-cover " />
@@ -35,7 +32,7 @@
 </section>
 <div class="relative bg-chocolate-800">
 	<div
-		class="relative h-80 overflow-hidden bg-chocolate-600 sm:h-96 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
+		class="relative overflow-hidden bg-chocolate-600 sm:h-[54rem] md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
 	>
 		<Img src={candles} class="-z-10 h-full w-full object-cover" />
 		<svg
@@ -105,5 +102,6 @@
 	attribution="—Rohini"
 />
 <svelte:head>
+	<title>1:1 Grief Companionship</title>
 	<script src="//embed.typeform.com/next/embed.js"></script>
 </svelte:head>
