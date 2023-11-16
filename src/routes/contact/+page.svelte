@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+	const url = $page.url;
+	const success = url.searchParams.get('success') === 'true';
 </script>
 
 <div class="isolate px-6 py-24 sm:py-32 sm:pt-24 lg:px-8">
@@ -10,8 +13,8 @@
 		method="POST"
 		class="mx-auto mt-16 max-w-xl sm:mt-20"
 	>
-		<input type="hidden" name="access_key" value="d79e3e3e-036d-4ac8-8236-7e1cedfd2633" />
-		<input type="hidden" name="redirect" value="http://tendingtogrief.com/contact?success" />
+		<input type="hidden" name="access_key" value="d0bd7d82-2e75-4558-8c78-2a81788cd3bc" />
+		<input type="hidden" name="redirect" value="http://tendingtogrief.com/contact?success=true" />
 		<div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
 			<div>
 				<label for="first-name" class="block text-sm font-semibold leading-6">First name</label>
@@ -83,4 +86,7 @@
 			>
 		</div>
 	</form>
+	<p class="mx-auto mt-8 max-w-4xl text-center text-xl {success ? 'block' : 'hidden'}">
+		Thank you! We will get back to you as soon as possible.
+	</p>
 </div>
