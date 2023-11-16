@@ -12,7 +12,7 @@
 		<a href="/offerings/retreats">Grief Retreats</a>
 	</div>
 	<Button
-		class="-mr-2 hidden items-center gap-2 bg-transparent text-sm uppercase tracking-widest text-white hover:bg-transparent dark:bg-transparent lg:flex"
+		class="-mr-4 hidden items-center gap-2 bg-transparent text-sm uppercase tracking-widest text-white hover:bg-transparent dark:bg-transparent lg:flex"
 		><span>Offerings</span><ChevronDownSolid
 			class="ml-2 h-3 w-3 text-white dark:text-white"
 		/></Button
@@ -31,7 +31,7 @@
 			><a href="/offerings/retreats">Grief Retreats</a></DropdownItem
 		>
 	</Dropdown>
-	<a href="/testimonials">Testimonials</a>
+	<a href="/testimonials" class="whitespace-nowrap">Warm Words</a>
 	<a href="/about">About</a>
 	<a href="/contact">Contact</a>
 </nav>

@@ -1,9 +1,11 @@
 <script>
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
-	import aboutImg from '$lib/assets/img/ceremony-2.jpg?as=run';
+	import aboutImg from '$lib/assets/img/mandala.jpg?as=run';
 	import circle from '$lib/assets/img/ceremony-1.jpg?as=run';
 	import candles from '$lib/assets/img/promo-circles.avif?as=run';
+	import hands from '$lib/assets/img/hands.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
+	import Testimonial from '$components/testimonial.svelte';
 </script>
 
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
@@ -48,33 +50,65 @@
 		early 2024. Please inquire below if you are interested in attending.
 	</p>
 	<h2 class="block pt-16 text-5xl">Upcoming Events</h2>
-	<div class="space-y-6">
-		<div class="max-w-lg"><Img src={candles} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
-		<h3 class="text-3xl">Tending to Grief During the Holidays</h3>
-		<p>Monday, 11/20/2023, from 2-4 PM HST, on Zoom</p>
-		<p>$15-25 Sliding scale. No one will be turned away for lack of funds.</p>
-		<p>
-			Join me for a workshop on navigating the upcoming holidays while making space for your grief.
-			This is an incredibly difficult time for many of us missing people and the holidays can
-			amplify and heighten our need for self care, boundaries, spaciousness and tools for coping.
-		</p>
-
-		<p>
-			We will explore reimagining new traditions, rituals to honor your beloved dead. We will cover
-			some grief psycho education, self care strategies and work on building our toolbox when it
-			comes to our personal unique grieving style and needs.
-		</p>
+	<div class="flex flex-col gap-16">
+		<div class="space-y-6">
+			<div class="max-w-lg"><Img src={candles} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
+			<h3 class="text-3xl">Tending to Grief During the Holidays</h3>
+			<p>Tuesday, 11/28/2023, from 4-6 PM HST, on Zoom</p>
+			<p>$15-25 Sliding scale. No one will be turned away for lack of funds.</p>
+			<p>
+				Join me for a workshop on navigating the upcoming holidays while making space for your
+				grief. This is an incredibly difficult time for many of us missing people and the holidays
+				can amplify and heighten our need for self care, boundaries, spaciousness and tools for
+				coping.
+			</p>
+			<p>
+				We will explore reimagining new traditions, rituals to honor your beloved dead. We will
+				cover some grief psycho education, self care strategies and work on building our toolbox
+				when it comes to our personal unique grieving style and needs.
+			</p>
+			<script src="//embed.typeform.com/next/embed.js"></script>
+			<button
+				data-tf-slider="AAvBy5Fy"
+				data-tf-position="right"
+				data-tf-opacity="100"
+				data-tf-iframe-props="title=Workshop Registration"
+				data-tf-transitive-search-params
+				data-tf-medium="snippet"
+				class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
+				>Register for this workshop</button
+			>
+		</div>
+		<div class="space-y-6">
+			<div class="max-w-lg"><Img src={hands} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
+			<h3 class="text-3xl">New Moon Grief Ceremony</h3>
+			<p>Tuesday, 12/12/2023, from 4-6:30 PM HST, on Zoom</p>
+			<p>$30-50 Sliding scale. No one will be turned away for lack of funds.</p>
+			<p>
+				Come and gather in the dark of the moon as the holidays and new year approaches. We will
+				gather in a soulful container in honor of grief to share stories, build a personal altar for
+				the year, a guided meditation and thoughtful and powerful writing prompts to help you
+				process and navigate this autumn shift and your grief/ connection to your beloved dead.
+				Spend time developing relationship in community and connection while tending to your grief
+				with those on the other side. This sacred container is unique this year as it’s open to
+				anyone grieving the death of a loved one, it doesn't matter if it’s been 30 years or 9
+				months, all touched by death are welcome.
+			</p>
+			<script src="//embed.typeform.com/next/embed.js"></script>
+			<button
+				data-tf-slider="xT6pTVD9"
+				data-tf-position="right"
+				data-tf-opacity="100"
+				data-tf-iframe-props="title=Grief ceremony Registration"
+				data-tf-transitive-search-params
+				data-tf-medium="snippet"
+				class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
+				>Register for this ceremony</button
+			>
+		</div>
 	</div>
-	<script src="//embed.typeform.com/next/embed.js"></script>
-	<button
-		data-tf-slider="xT6pTVD9"
-		data-tf-position="right"
-		data-tf-opacity="100"
-		data-tf-iframe-props="title=Grief ceremony Registration"
-		data-tf-transitive-search-params
-		data-tf-medium="snippet"
-		class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
-		>Register for event</button
-	>
-	<script src="//embed.typeform.com/next/embed.js"></script>
 </section>
+<Testimonial
+	quote="“Grief ceremony of this depth is what’s missing from our culture and Tasha creates the space to normalize and process grief in a really helpful and nourishing container. She’s an excellent facilitator and talented practitioner.”"
+	attribution="—Indigo"
+/>

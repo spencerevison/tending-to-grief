@@ -24,8 +24,8 @@
 		<div class="mt-8 space-y-6 md:order-1 md:mt-0">
 			<p class=" leading-5">&copy; 2023 Tending to Grief.</p>
 			<p class=" leading-5">
-				I respectfully acknowledge that reside on the unceded ancestral lands of the Kanaka Maoli. I
-				honor their enduring connection to this place and express gratitude for the opportunity to
+				I respectfully acknowledge that I reside on the unceded ancestral lands of the Kanaka Maoli.
+				I honor their enduring connection to this place and express gratitude for the opportunity to
 				live, work, and create on this sacred land.
 			</p>
 			<p class="pt-8 text-xs leading-5">Site by Peebler Inc.</p>

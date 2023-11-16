@@ -29,11 +29,6 @@
 		</div>
 		<Logo class="w-40 shrink fill-white sm:w-64" />
 	</div>
-	<p class="pt-12">
-		*** Please note, that I am NOT a licensed mental health provider, these sessions are self guided
-		companionship and are not to be replaced for professional therapy- if you need additional
-		support I can help you find this.
-	</p>
 </section>
 <div class="relative bg-chocolate-800">
 	<div
@@ -73,7 +68,7 @@
 				These 60 minute sessions are a place for you to carve out time to be with your grief. These
 				sessions are mostly guided by you and I am here to offer support, companionship and tools
 				and embodiment practices for you to deepen into connection and healing with your beloved
-				dead. This is done through meditation, somatic practices, writing, art, connection to land
+				dead. This is done through meditation, ritual practices, writing, art, connection to land
 				and earth, movement etc.
 			</p>
 			<p class="mt-6 text-base leading-7 text-gray-300">
@@ -81,6 +76,11 @@
 				mandala making, helping you weave a meaningful end of life celebration, obituary writing
 				etc. These sessions are sliding scale $25 - $100 Per hour. No one will be turned away for
 				lack of funds.
+			</p>
+			<p class="mt-6 text-base leading-7 text-gray-300">
+				*** Please note, that I am NOT a licensed mental health provider, these sessions are self
+				guided companionship and are not to be replaced for professional therapy- if you need
+				additional support I can help you find this.
 			</p>
 			<div class="mt-8">
 				<script src="//embed.typeform.com/next/embed.js"></script>
@@ -99,8 +99,6 @@
 	</div>
 </div>
 <Testimonial
-	quote="“The grief work Tasha is doing is brave and potent among a cultural norm of grief
-repression. Tasha clearly knows grief intimately and is not afraid to hold and face
-yours as a pathway to connection, support, and belonging.”"
-	attribution="—Anna"
+	quote="“Tasha has played a powerful and much needed role in my grieving process. Her wise companionship through my journey after losing my beloved mom suddenly has been a nurturing hug, a pillar of strength, and a wise reflective mirror all at once. Within every session I felt so very seen, held, and given permission to let free the achiest, rawest and stickiest parts of loss. I can’t imagine having gone through this time without her support, and I am so deeply, deeply grateful. She is a true ally to anyone immersed in the lessons of grief.”"
+	attribution="—Rohini"
 />
