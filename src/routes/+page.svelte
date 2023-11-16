@@ -4,6 +4,9 @@
 	import Hero from '$lib/components/hero.svelte';
 </script>
 
+<svelte:head>
+	<title>Tending to Grief</title>
+</svelte:head>
 <Hero />
 <Promos />
 <Testimonial

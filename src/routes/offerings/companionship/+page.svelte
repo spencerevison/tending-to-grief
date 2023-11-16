@@ -6,6 +6,9 @@
 	import Img from '@zerodevx/svelte-img';
 </script>
 
+<svelte:head>
+	<title>1:1 Grief Companionship</title>
+</svelte:head>
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 	<div>
 		<Img src={hero} class="absolute inset-0 -z-10 h-full w-full bg-chocolate-50 object-cover " />

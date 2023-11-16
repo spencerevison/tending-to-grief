@@ -4,6 +4,9 @@
 	const success = url.searchParams.get('success') === 'true';
 </script>
 
+<svelte:head>
+	<title>Contact</title>
+</svelte:head>
 <div class="isolate px-6 py-24 sm:py-32 sm:pt-24 lg:px-8">
 	<div class="mx-auto max-w-2xl text-center">
 		<h2 class="text-3xl sm:text-5xl">Get in touch</h2>
