@@ -105,7 +105,7 @@
 >
 	<h2 class="text-3xl lg:text-4xl">Education & Experience</h2>
 	<div>
-		<h3 class="mb-2 font-bold">Professional Trainings</h3>
+		<h3 class="mb-2 text-2xl font-bold">Professional Trainings</h3>
 		<ul class="list-disc pl-4">
 			<li>Trauma-informed Grief Support professional training - Shauna Janz 2023</li>
 			<li>
@@ -130,14 +130,14 @@
 		</ul>
 	</div>
 	<div>
-		<h3 class="mb-2 font-bold">
+		<h3 class="mb-2 text-2xl font-bold">
 			Bachelor of Arts in Human Development - concentration in gerontology
 		</h3>
 		<p>University of California East Bay</p>
 		<p>Thesis “Perspectives and grief experiences of young adults on parent loss”</p>
 	</div>
 	<div>
-		<h3 class="mb-2 font-bold">Work Experience</h3>
+		<h3 class="mb-2 text-2xl font-bold">Work Experience</h3>
 		<ul class="list-disc pl-4">
 			<li>Hospice of Kona, Hawai’i Island - Grief counselor (currently on leave while pregnant)</li>
 			<li>Coastal Kids Homecare - Grief group facilitator</li>
@@ -147,7 +147,7 @@
 		</ul>
 	</div>
 	<div>
-		<h3 class="mb-2 font-bold">Herbal Medicine/ Birthwork</h3>
+		<h3 class="mb-2 text-2xl font-bold">Herbal Medicine/ Birthwork</h3>
 		<ul class="list-disc pl-4">
 			<li>Science and Art of Herbal Medicine, Rosemary Gladstar Distance Herbal Program - 2013</li>
 			<li>California School of Herbal Studies - Body Systems 9-Month Program - 2014</li>

@@ -70,6 +70,11 @@
 				cover some grief psycho education, self care strategies and work on building our toolbox
 				when it comes to our personal unique grieving style and needs.
 			</p>
+			<p>
+				Please note that this workshop is psychoeducation / presentation-based. We will not be
+				sharing stories but will include elements of self reflection and writing. If you are
+				interested in community grief tending please register for the New Moon Ceremony on 12/12.
+			</p>
 			<script src="//embed.typeform.com/next/embed.js"></script>
 			<button
 				data-tf-slider="AAvBy5Fy"
