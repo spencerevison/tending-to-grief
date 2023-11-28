@@ -63,7 +63,7 @@
 	<div class="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
 		<div class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
 			<h2 class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-				Inquire about a session
+				1:1 Grief Companionship
 			</h2>
 			<p class="mt-6 text-base leading-7 text-gray-300">
 				Work with me in a private 1:1 container. I am currently offering these via zoom or by phone.
@@ -93,7 +93,7 @@
 					data-tf-transitive-search-params
 					data-tf-medium="snippet"
 					class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
-					>Book a session</button
+					>Inquire about a session</button
 				>
 			</div>
 		</div>
