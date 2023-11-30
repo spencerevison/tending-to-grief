@@ -2,7 +2,6 @@
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 	import aboutImg from '$lib/assets/img/mandala.jpg?as=run';
 	import circle from '$lib/assets/img/ceremony-1.jpg?as=run';
-	import candles from '$lib/assets/img/promo-circles.avif?as=run';
 	import hands from '$lib/assets/img/hands.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 	import Testimonial from '$components/testimonial.svelte';
@@ -54,7 +53,7 @@
 	</p>
 	<h2 class="block pt-16 text-5xl">Upcoming Events</h2>
 	<div class="flex flex-col gap-16">
-		<div class="space-y-6">
+		<!-- <div class="space-y-6">
 			<div class="max-w-lg"><Img src={candles} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
 			<h3 class="text-3xl">Tending to Grief During the Holidays</h3>
 			<p>Tuesday, 11/28/2023, from 4-6 PM HST, on Zoom</p>
@@ -86,7 +85,7 @@
 				class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
 				>Register for this workshop</button
 			>
-		</div>
+		</div> -->
 		<div class="space-y-6">
 			<div class="max-w-lg"><Img src={hands} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
 			<h3 class="text-3xl">New Moon Grief Ceremony</h3>
