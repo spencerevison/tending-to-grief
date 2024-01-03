@@ -2,7 +2,6 @@
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 	import aboutImg from '$lib/assets/img/mandala.jpg?as=run';
 	import circle from '$lib/assets/img/ceremony-1.jpg?as=run';
-	import hands from '$lib/assets/img/hands.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 	import Testimonial from '$components/testimonial.svelte';
 </script>
@@ -51,41 +50,8 @@
 		consecutive weeks. I am currently planning a parent loss group and suicide survivor group for
 		early 2024. Please inquire below if you are interested in attending.
 	</p>
-	<h2 class="block pt-16 text-5xl">Upcoming Events</h2>
+	<!-- <h2 class="block pt-16 text-5xl">Upcoming Events</h2>
 	<div class="flex flex-col gap-16">
-		<!-- <div class="space-y-6">
-			<div class="max-w-lg"><Img src={candles} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
-			<h3 class="text-3xl">Tending to Grief During the Holidays</h3>
-			<p>Tuesday, 11/28/2023, from 4-6 PM HST, on Zoom</p>
-			<p>$15-25 Sliding scale. No one will be turned away for lack of funds.</p>
-			<p>
-				Join me for a workshop on navigating the upcoming holidays while making space for your
-				grief. This is an incredibly difficult time for many of us missing people and the holidays
-				can amplify and heighten our need for self care, boundaries, spaciousness and tools for
-				coping.
-			</p>
-			<p>
-				We will explore reimagining new traditions, rituals to honor your beloved dead. We will
-				cover some grief psycho education, self care strategies and work on building our toolbox
-				when it comes to our personal unique grieving style and needs.
-			</p>
-			<p>
-				Please note that this workshop is psychoeducation / presentation-based. We will not be
-				sharing stories but will include elements of self reflection and writing. If you are
-				interested in community grief tending please register for the New Moon Ceremony on 12/12.
-			</p>
-			<script src="//embed.typeform.com/next/embed.js"></script>
-			<button
-				data-tf-slider="AAvBy5Fy"
-				data-tf-position="right"
-				data-tf-opacity="100"
-				data-tf-iframe-props="title=Workshop Registration"
-				data-tf-transitive-search-params
-				data-tf-medium="snippet"
-				class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
-				>Register for this workshop</button
-			>
-		</div> -->
 		<div class="space-y-6">
 			<div class="max-w-lg"><Img src={hands} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
 			<h3 class="text-3xl">New Moon Grief Ceremony</h3>
@@ -113,7 +79,7 @@
 				>Register for this ceremony</button
 			>
 		</div>
-	</div>
+	</div> -->
 </section>
 <Testimonial
 	quote="“Grief ceremony of this depth is what’s missing from our culture and Tasha creates the space to normalize and process grief in a really helpful and nourishing container. She’s an excellent facilitator and talented practitioner.”"
