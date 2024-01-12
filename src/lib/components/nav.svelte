@@ -8,7 +8,7 @@
 	<p class="lg:hidden">Offerings</p>
 	<div class="ml-4 flex flex-col gap-4 lg:hidden">
 		<a href="/offerings/companionship">1:1 Grief Companionship</a>
-		<a href="/offerings/ceremonies">Ceremonies & Workshops</a>
+		<a href="/offerings/ceremonies">Ceremonies & Groups</a>
 		<a href="/offerings/retreats">Grief Retreats</a>
 	</div>
 	<Button
@@ -25,7 +25,7 @@
 			><a href="/offerings/companionship">1:1 Grief Companionship</a></DropdownItem
 		>
 		<DropdownItem class="text-sm uppercase tracking-widest text-white hover:bg-transparent"
-			><a href="/offerings/ceremonies">Ceremonies & Workshops</a></DropdownItem
+			><a href="/offerings/ceremonies">Ceremonies & Groups</a></DropdownItem
 		>
 		<DropdownItem class="text-sm uppercase tracking-widest text-white hover:bg-transparent"
 			><a href="/offerings/retreats">Grief Retreats</a></DropdownItem

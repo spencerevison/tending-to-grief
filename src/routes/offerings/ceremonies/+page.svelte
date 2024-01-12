@@ -2,6 +2,7 @@
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 	import aboutImg from '$lib/assets/img/mandala.jpg?as=run';
 	import circle from '$lib/assets/img/ceremony-1.jpg?as=run';
+	import ceremony from '$lib/assets/img/ceremony-3.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 	import Testimonial from '$components/testimonial.svelte';
 </script>
@@ -37,49 +38,87 @@
 	</div>
 	<Img src={circle} class="-z-10 mx-auto max-w-full rounded-lg" />
 	<p>
-		These grief ceremonies are an opportunity for deeper connection and community. A place to gather
-		and grief tend with others who are navigating the throes of great loss. Like the ways of our
-		ancestors in villages of pastimes, our modern day patterns of grief isolation are a pervasive
-		problem. When we come together we heal together. These ceremonies vary from in person and
-		online, sometimes they are death specific such as parent loss or traumatic loss and some are
-		open. Please browse below to explore and register for one of these circles. Most circles are 2-
-		3 hours and include elements of altar building, meditation, storytelling and journaling.
+		These grief ceremonies and groups offer an opportunity for deeper connection and community—a
+		place to gather and tend to grief with others navigating the throes of great loss. Reflecting on
+		the ways of our ancestors in the villages of past times, our modern-day patterns of grief
+		isolation are a pervasive problem. When we come together, we heal together. These ceremonies,
+		varying from in-person to online, sometimes are death-specific, such as parent loss or traumatic
+		loss, and some are open to all. Please browse below to explore and register for one of these
+		circles. Most circles last 2-3 hours and include elements of altar building, meditation,
+		storytelling, and journaling.
 	</p>
 	<p>
-		Support groups: These 10 week closed groups meet the same time and day each week for 10
-		consecutive weeks. I am currently planning a parent loss group and suicide survivor group for
+		Support Groups: These 10-week closed groups meet at the same time and day each week for 10
+		consecutive weeks. I am currently planning a parent loss group and a suicide survivor group for
 		early 2024. Please inquire below if you are interested in attending.
 	</p>
-	<!-- <h2 class="block pt-16 text-5xl">Upcoming Events</h2>
+	<h2 class="block pt-16 text-5xl">Upcoming Events</h2>
 	<div class="flex flex-col gap-16">
 		<div class="space-y-6">
-			<div class="max-w-lg"><Img src={hands} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
-			<h3 class="text-3xl">New Moon Grief Ceremony</h3>
-			<p>Tuesday, 12/12/2023, from 4-6:30 PM HST, on Zoom</p>
-			<p>$30-50 Sliding scale. No one will be turned away for lack of funds.</p>
-			<p>
-				Come and gather in the dark of the moon as the holidays and new year approaches. We will
-				gather in a soulful container in honor of grief to share stories, build a personal altar for
-				the year, a guided meditation and thoughtful and powerful writing prompts to help you
-				process and navigate this autumn shift and your grief/ connection to your beloved dead.
-				Spend time developing relationship in community and connection while tending to your grief
-				with those on the other side. This sacred container is unique this year as it’s open to
-				anyone grieving the death of a loved one, it doesn't matter if it’s been 30 years or 9
-				months, all touched by death are welcome.
-			</p>
+			<div class="max-w-lg"><Img src={ceremony} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
+			<h3 class="text-3xl">6-Week Parent Loss Support Group</h3>
+			<section>
+				<p>
+					In this closed container (meaning the same people meet each week), we will deepen our
+					connection and community building as we explore the themes, challenges, and realities of
+					parent loss, while remembering their legacy and love, and strengthening our bond. This
+					6-week closed support group is a soulful and intimate gathering of individuals grieving
+					the death of a parent or parent-like figure. Each week will start with a short meditation,
+					focus on different themes, share in the circle, and journal about our losses.
+				</p>
+			</section>
+			<section class="space-y-4">
+				<h3 class="text-2xl">Themes Covered</h3>
+				<ul class="list-disc pl-4">
+					<li>Where we are in our grief / some grief psychoeducation.</li>
+					<li>Layers of support &amp; self-care.</li>
+					<li>Existing relationships with family members, friends, peers.</li>
+					<li>Work and family life.</li>
+					<li>Secondary losses.</li>
+					<li>Exploring new ways of identity and relating.</li>
+					<li>Emotional literacy, knowing ourselves in grief.</li>
+					<li>Continuing bonds / ways to stay connected.</li>
+					<li>Self-designed grief rituals / meditations for grief and resources.</li>
+					<li>
+						Art, writing, and other tools for uncovering deeper layers of processing and healing.
+					</li>
+					<li>Letter writing to them.</li>
+					<li>
+						Who were they? Storytelling and optional photo sharing about them / their lives / their
+						legacy.
+					</li>
+					<li>Death story, storytelling, and sharing about the death and aftermath.</li>
+					<li>
+						Parenting without them, family traditions, passing on their wisdom to our kids
+						(applicable for parents; depending on the number of parents in the group, we may explore
+						some of this).
+					</li>
+				</ul>
+			</section>
+			<section class="space-y-4">
+				<h3 class="text-2xl">Group Details</h3>
+				<p>This group will take place on <strong>THURSDAYS</strong></p>
+				<p>
+					Starting Thursday, Feb 8, 15, 22, 29, March 7, 14<br />
+					VIA ZOOM<br />
+					6:00-7:45 PM PST<br />
+					$120-275 USD (sliding scale)
+				</p>
+				<p>Please fill out <a href="URL_TO_FORM">this form</a> to register.</p>
+			</section>
 			<script src="//embed.typeform.com/next/embed.js"></script>
 			<button
-				data-tf-slider="xT6pTVD9"
+				data-tf-slider="xpggkbzn"
 				data-tf-position="right"
 				data-tf-opacity="100"
 				data-tf-iframe-props="title=Grief ceremony Registration"
 				data-tf-transitive-search-params
 				data-tf-medium="snippet"
 				class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
-				>Register for this ceremony</button
+				>Register for this group</button
 			>
 		</div>
-	</div> -->
+	</div>
 </section>
 <Testimonial
 	quote="“Grief ceremony of this depth is what’s missing from our culture and Tasha creates the space to normalize and process grief in a really helpful and nourishing container. She’s an excellent facilitator and talented practitioner.”"
