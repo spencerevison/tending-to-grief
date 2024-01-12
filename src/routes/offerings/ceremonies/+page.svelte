@@ -47,11 +47,6 @@
 		circles. Most circles last 2-3 hours and include elements of altar building, meditation,
 		storytelling, and journaling.
 	</p>
-	<p>
-		Support Groups: These 10-week closed groups meet at the same time and day each week for 10
-		consecutive weeks. I am currently planning a parent loss group and a suicide survivor group for
-		early 2024. Please inquire below if you are interested in attending.
-	</p>
 	<h2 class="block pt-16 text-5xl">Upcoming Events</h2>
 	<div class="flex flex-col gap-16">
 		<div class="space-y-6">
