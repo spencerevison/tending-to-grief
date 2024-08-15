@@ -92,12 +92,12 @@
 			</section>
 			<section class="space-y-4">
 				<h3 class="text-2xl">Group Details</h3>
-				<p>This group will take place on <strong>THURSDAYS</strong></p>
+				<p>This group will take place on <strong>TUESDAYS</strong></p>
 				<p>
-					Starting Thursday, Feb 8, 15, 22, 29, March 7, 14<br />
+					Starting Tuesday, Sept 24, Oct 1, 8, 15, 22 &amp; 29<br />
 					VIA ZOOM<br />
-					6:00-7:45 PM PST<br />
-					$120-275 USD (sliding scale)
+					5:30-7pm PDT / 2:30-4pm HST<br />
+					$200-360 USD (sliding scale)
 				</p>
 				<p>Please fill out <a href="URL_TO_FORM">this form</a> to register.</p>
 			</section>
