@@ -2,7 +2,8 @@
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 	import aboutImg from '$lib/assets/img/mandala.jpg?as=run';
 	import circle from '$lib/assets/img/ceremony-1.jpg?as=run';
-	import ceremony from '$lib/assets/img/ceremony-3.jpg?as=run';
+	import ceremony from '$lib/assets/img/ceremony-4.jpg?as=run';
+	import ceremony2 from '$lib/assets/img/ceremony-5.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 	import Testimonial from '$components/testimonial.svelte';
 </script>
@@ -50,60 +51,34 @@
 	<h2 class="block pt-16 text-5xl">Upcoming Events</h2>
 	<div class="flex flex-col gap-16">
 		<div class="space-y-6">
+			<div class="max-w-lg"><Img src={ceremony2} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
 			<div class="max-w-lg"><Img src={ceremony} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
-			<h3 class="text-3xl">6-Week Parent Loss Support Group</h3>
+			<h3 class="text-3xl">Grief Ceremony</h3>
+			<section>
+				<p><strong>Sunday October 27th 4-7pm<br />Anna Ranch<br /> $35-65 sliding scale</strong></p>
+			</section>
 			<section>
 				<p>
-					In this closed container (meaning the same people meet each week), we will deepen our
-					connection and community building as we explore the themes, challenges, and realities of
-					parent loss, while remembering their legacy and love, and strengthening our bond. This
-					6-week closed support group is a soulful and intimate gathering of individuals grieving
-					the death of a parent or parent-like figure. Each week will start with a short meditation,
-					focus on different themes, share in the circle, and journal about our losses.
+					This ceremony space is a immersive community container at the beautiful anna ranch We will
+					build altars, talk story and say their names and gather during this potent time of year to
+					honor our ancestors with the samhain portal (celtic holiday) and day of the dead in
+					Mexico. We will dive into some grief focused meditations, have a tea ceremony focusing on
+					plants to support our grief, do some writing and end with a sound healing and some light
+					movement.
 				</p>
 			</section>
 			<section class="space-y-4">
-				<h3 class="text-2xl">Themes Covered</h3>
-				<ul class="list-disc pl-4">
-					<li>Where we are in our grief / some grief psychoeducation.</li>
-					<li>Layers of support &amp; self-care.</li>
-					<li>Existing relationships with family members, friends, peers.</li>
-					<li>Work and family life.</li>
-					<li>Secondary losses.</li>
-					<li>Exploring new ways of identity and relating.</li>
-					<li>Emotional literacy, knowing ourselves in grief.</li>
-					<li>Continuing bonds / ways to stay connected.</li>
-					<li>Self-designed grief rituals / meditations for grief and resources.</li>
-					<li>
-						Art, writing, and other tools for uncovering deeper layers of processing and healing.
-					</li>
-					<li>Letter writing to them.</li>
-					<li>
-						Who were they? Storytelling and optional photo sharing about them / their lives / their
-						legacy.
-					</li>
-					<li>Death story, storytelling, and sharing about the death and aftermath.</li>
-					<li>
-						Parenting without them, family traditions, passing on their wisdom to our kids
-						(applicable for parents; depending on the number of parents in the group, we may explore
-						some of this).
-					</li>
-				</ul>
-			</section>
-			<section class="space-y-4">
-				<h3 class="text-2xl">Group Details</h3>
-				<p>This group will take place on <strong>TUESDAYS</strong></p>
 				<p>
-					Starting Tuesday, Sept 24, Oct 1, 8, 15, 22 &amp; 29<br />
-					VIA ZOOM<br />
-					5:30-7pm PDT / 2:30-4pm HST<br />
-					$200-360 USD (sliding scale)
+					This circle is open to anyone grieving a death related loss. Doesn't matter how long ago
+					or what the relationship was.
 				</p>
-				<p>Please fill out <a href="URL_TO_FORM">this form</a> to register.</p>
+			</section>
+			<section class="space-y-4">
+				<p>Please inquire if you need financial assitance.</p>
 			</section>
 			<script src="//embed.typeform.com/next/embed.js"></script>
 			<button
-				data-tf-slider="xpggkbzn"
+				data-tf-slider="xT6pTVD9"
 				data-tf-position="right"
 				data-tf-opacity="100"
 				data-tf-iframe-props="title=Grief ceremony Registration"
