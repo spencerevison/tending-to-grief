@@ -53,7 +53,7 @@
 		<div class="space-y-6">
 			<div class="max-w-lg"><Img src={ceremony2} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
 			<div class="max-w-lg"><Img src={ceremony} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
-			<h3 class="text-3xl">Grief Ceremony</h3>
+			<h3 class="text-3xl">Grief Ceremony - <span>(CURRENTLY FULL)</span></h3>
 			<section>
 				<p><strong>Sunday October 27th 4-7pm<br />Anna Ranch<br /> $35-65 sliding scale</strong></p>
 			</section>
