@@ -73,10 +73,10 @@
 					or what the relationship was.
 				</p>
 			</section>
-			<section class="space-y-4">
+			<!-- <section class="space-y-4">
 				<p>Please inquire if you need financial assitance.</p>
-			</section>
-			<script src="//embed.typeform.com/next/embed.js"></script>
+			</section> -->
+			<!-- <script src="//embed.typeform.com/next/embed.js"></script>
 			<button
 				data-tf-slider="xT6pTVD9"
 				data-tf-position="right"
@@ -86,7 +86,7 @@
 				data-tf-medium="snippet"
 				class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
 				>Register for this group</button
-			>
+			> -->
 		</div>
 	</div>
 </section>
