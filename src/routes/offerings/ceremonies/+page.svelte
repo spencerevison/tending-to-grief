@@ -2,14 +2,14 @@
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
 	import aboutImg from '$lib/assets/img/mandala.jpg?as=run';
 	import circle from '$lib/assets/img/ceremony-1.jpg?as=run';
-	import ceremony from '$lib/assets/img/ceremony-4.jpg?as=run';
-	import ceremony2 from '$lib/assets/img/ceremony-5.jpg?as=run';
+	import ceremony from '$lib/assets/img/ceremony-6.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
 	import Testimonial from '$components/testimonial.svelte';
 </script>
 
 <svelte:head>
 	<title>Ceremonies</title>
+	<script src="//embed.typeform.com/next/embed.js"></script>
 </svelte:head>
 <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-48 lg:px-8">
 	<div>
@@ -51,42 +51,38 @@
 	<h2 class="block pt-16 text-5xl">Upcoming Events</h2>
 	<div class="flex flex-col gap-16">
 		<div class="space-y-6">
-			<div class="max-w-lg"><Img src={ceremony2} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
 			<div class="max-w-lg"><Img src={ceremony} class="-z-10 mt-8 max-w-full rounded-lg" /></div>
-			<h3 class="text-3xl">Grief Ceremony - <span>(CURRENTLY FULL)</span></h3>
+			<h3 class="text-3xl">Grief Ceremony</h3>
 			<section>
-				<p><strong>Sunday October 27th 4-7pm<br />Anna Ranch<br /> $35-65 sliding scale</strong></p>
+				<p>
+					<strong
+						>Sunday October 25th 2-5pm<br />Shiima Koh, Corralitos<br />Sliding scale $40-100,
+						donation based</strong
+					>
+				</p>
 			</section>
 			<section>
 				<p>
-					This ceremony space is a immersive community container at the beautiful anna ranch We will
-					build altars, talk story and say their names and gather during this potent time of year to
-					honor our ancestors with the samhain portal (celtic holiday) and day of the dead in
-					Mexico. We will dive into some grief focused meditations, have a tea ceremony focusing on
-					plants to support our grief, do some writing and end with a sound healing and some light
-					movement.
+					Open to folks from all walks of life who want to honor their dead. We will gather for
+					ancestral honoring, altar building, storytelling, journaling, tea and sound, and seasonal
+					tending.
 				</p>
 			</section>
 			<section class="space-y-4">
-				<p>
-					This circle is open to anyone grieving a death related loss. Doesn't matter how long ago
-					or what the relationship was.
-				</p>
+				<p>No one turned away for lack of funds.</p>
 			</section>
-			<!-- <section class="space-y-4">
-				<p>Please inquire if you need financial assitance.</p>
-			</section> -->
-			<!-- <script src="//embed.typeform.com/next/embed.js"></script>
-			<button
-				data-tf-slider="xT6pTVD9"
-				data-tf-position="right"
-				data-tf-opacity="100"
-				data-tf-iframe-props="title=Grief ceremony Registration"
-				data-tf-transitive-search-params
-				data-tf-medium="snippet"
-				class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
-				>Register for this group</button
-			> -->
+			<div class="mt-8">
+				<button
+					data-tf-slider="b7ha6BQ6"
+					data-tf-position="right"
+					data-tf-opacity="100"
+					data-tf-iframe-props="title=Grief Ceremony Registration"
+					data-tf-transitive-search-params
+					data-tf-medium="snippet"
+					class="inline-block rounded-md bg-chocolate-500 px-3.5 py-2.5 text-center text-sm font-semibold shadow-sm hover:bg-pumpkin-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-chocolate-600"
+					>Register for this ceremony</button
+				>
+			</div>
 		</div>
 	</div>
 </section>
