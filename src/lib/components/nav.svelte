@@ -7,7 +7,7 @@
 	<a href="/">Home</a>
 	<p class="lg:hidden">Offerings</p>
 	<div class="ml-4 flex flex-col gap-4 lg:hidden">
-		<a href="/offerings/companionship">1:1 Grief Companionship</a>
+		<a href="/offerings/womb-work">Womb Work</a>
 		<a href="/offerings/ceremonies">Ceremonies & Groups</a>
 		<a href="/offerings/retreats">Grief Retreats</a>
 	</div>
@@ -22,7 +22,7 @@
 		containerClass="bg-transparent dark:bg-transparent dark:shadow-none shadow-none"
 	>
 		<DropdownItem class="text-sm uppercase tracking-widest text-white hover:bg-transparent"
-			><a href="/offerings/companionship">1:1 Grief Companionship</a></DropdownItem
+			><a href="/offerings/womb-work">Womb Work</a></DropdownItem
 		>
 		<DropdownItem class="text-sm uppercase tracking-widest text-white hover:bg-transparent"
 			><a href="/offerings/ceremonies">Ceremonies & Groups</a></DropdownItem

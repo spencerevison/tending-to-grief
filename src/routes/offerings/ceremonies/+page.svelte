@@ -4,7 +4,30 @@
 	import circle from '$lib/assets/img/ceremony-1.jpg?as=run';
 	import ceremony from '$lib/assets/img/ceremony-6.jpg?as=run';
 	import Img from '@zerodevx/svelte-img';
-	import Testimonial from '$components/testimonial.svelte';
+	import TestimonialCarousel from '$components/testimonial-carousel.svelte';
+
+	const testimonials = [
+		{
+			quote:
+				'Tasha is a modern-day medicine woman, a guiding light in the liminal spaces of death and grief. Having Tasha\u2019s presence and support during the time of my partner\u2019s crossing and all the complex layers of grief that followed has been an invaluable blessing for my children and I. In a time and place where there is such widespread disconnect around how to truly be with and honor all grief asks of us, Tasha brings a much needed remembrance and re-weaving of the sacred rituals that help grievers to do just that. Her ceremonial grief circles are grounded in the elements and the embodied wisdom from her own grief walk, a space for grievers from all walks of life to come together and be witnessed in the raw and expansive pain and beauty for all that grief illuminates.',
+			name: 'Sarah'
+		},
+		{
+			quote:
+				'Tasha is the most gentle soul, in holding space to explore, feel, and move through one\u2019s grief with so much love. Her caring, thoughtful, and creative guidance helped me honor my loved ones in a way I can take home and reflect on when times get tough. I am so grateful to you Tasha and all that you do!',
+			name: 'Lauren'
+		},
+		{
+			quote:
+				'Tasha, your grief group was instrumental in my grieving process. You created such a beautiful, compassionate space, one that honored each person and met us exactly where we were in our grief. I felt safe, supported, and deeply understood during an incredibly painful time, and I\u2019m so grateful for the care you brought to the circle.',
+			name: 'Jenny'
+		},
+		{
+			quote:
+				'Grief ceremony of this depth is what\u2019s missing from our culture and Tasha creates the space to normalize and process grief in a really helpful and nourishing container. She\u2019s an excellent facilitator and talented practitioner.',
+			name: 'Indigo'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -86,7 +109,4 @@
 		</div>
 	</div>
 </section>
-<Testimonial
-	quote="“Grief ceremony of this depth is what’s missing from our culture and Tasha creates the space to normalize and process grief in a really helpful and nourishing container. She’s an excellent facilitator and talented practitioner.”"
-	attribution="—Indigo"
-/>
+<TestimonialCarousel items={testimonials} />

@@ -1,6 +1,6 @@
 <script>
 	import Img from '@zerodevx/svelte-img';
-	import promo1 from '$lib/assets/img/compansionship-2.jpg?as=run';
+	import promo1 from '$lib/assets/img/womb.jpg?as=run';
 	import promo2 from '$lib/assets/img/compansionship-1.jpg?as=run';
 	import promo3 from '$lib/assets/img/retreat-2.jpg?as=run';
 	import Logo from '$lib/assets/graphics/logo-graphic.svg?component';
@@ -8,8 +8,8 @@
 	const promos = [
 		{
 			id: 1,
-			title: '1:1 Grief Companionship',
-			href: '/offerings/companionship',
+			title: 'Womb Work',
+			href: '/offerings/womb-work',
 			image: promo1
 		},
 		{
