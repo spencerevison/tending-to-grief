@@ -18,7 +18,7 @@
 		},
 		{
 			quote:
-				'I am so grateful for my session with Tasha. I lost my mother who was my best friend a few months ago, and I am the mother to a one year-old so I haven\u2019t really had much space to process and grieve this massive loss. Having the opportunity to talk about it and have a ceremony held by someone who was not only very understanding, but very skilled in supporting someone going through those kinds of major life losses was really healing. She also integrated my birth and some Wool Massage into the session. I left feeling very nourished, very moved, and genuinely feeling lighter. We need more people providing these beautiful services to community members experiencing grief, so thank you Tasha. I strongly recommend this work as a tool on the journey of integration.',
+				'I am so grateful for my session with Tasha. I lost my mother who was my best friend a few months ago, and I am the mother to a one year-old so I haven\u2019t really had much space to process and grieve this massive loss. Having the opportunity to talk about it and have a ceremony held by someone who was not only very understanding, but very skilled in supporting someone going through those kinds of major life losses was really healing. I strongly recommend this work as a tool on the journey of integration.',
 			name: 'Kate'
 		},
 		{
@@ -73,10 +73,22 @@
 		<div class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
 			<h2 class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Womb Work</h2>
 			<p class="mt-6 text-base leading-7 text-gray-300">
-				We hold so much grief in the belly and womb. This container is suitable for all bodies,
-				genders, and experiences. I safely and warmly welcome mothers into my care for deepening and
-				integration, mothers to be, any women on the cusp or threshold of transitions or needing
-				support to access deeper wisdom within, and grievers of all sorts.
+				We carry so much grief in the belly, the womb, and the places where life asks us to soften,
+				surrender, and feel.
+			</p>
+			<p class="mt-6 text-base leading-7 text-gray-300">
+				This space is a warm and inclusive container for all bodies, genders, and lived experiences.
+				I welcome mothers, future mothers, and those moving through the tender thresholds of birth,
+				becoming, loss, death, grief and transformation.
+			</p>
+			<p class="mt-6 text-base leading-7 text-gray-300">
+				For those who feel called to deepen into themselves, reconnect with the wisdom held within,
+				or gently tend to the grief they carry, this is a space to be witnessed, held, and met with
+				care.
+			</p>
+			<p class="mt-6 text-base leading-7 text-gray-300">
+				You do not need to arrive knowing exactly what you need. You are welcome as you are and we
+				will unfurl together.
 			</p>
 			<p class="mt-6 text-base leading-7 text-gray-300">
 				These sessions are a sacred time and place to drop out of the mind and into the body and
@@ -95,8 +107,10 @@
 			</p>
 			<h3 class="mt-10 text-xl font-semibold text-white">These sessions are for:</h3>
 			<p class="mt-2 text-base leading-7 text-gray-300">Maidens ~ mothers ~ crones</p>
+			<p class="text-base leading-7 text-gray-300">And everyone in between</p>
 			<ul class="mt-4 space-y-2 text-base leading-7 text-gray-300">
-				<li>+ Postpartum mothers, seasoned mothers</li>
+				<li>+ Traumatic birth, C sections, complex postpartum experiences</li>
+				<li>+ Postpartum mothers, seasoned mothers needing deeper support</li>
 				<li>+ Mothers of miscarriage, abortion, still birth, infant loss</li>
 				<li>+ Anyone who has experienced the death of a loved one ~ parent, friend, sibling etc</li>
 				<li>+ Women wanting and trying to conceive</li>
@@ -105,7 +119,7 @@
 				<li>+ Anyone wanting to honor life transitions</li>
 			</ul>
 			<p class="mt-8 text-base leading-7 text-gray-300">
-				Please book through my Calendly. All sessions are sliding scale $75&ndash;180 USD for the 90
+				Please book through my Calendly. All sessions are sliding scale $65&ndash;180 USD for the 90
 				minutes.
 			</p>
 			<div class="mt-8">
